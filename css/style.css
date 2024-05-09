@@ -35,7 +35,7 @@ header a{
     padding: 10px 20px;
 }
 
-.menu-sx{
+.menu{
     align-items: center;  
     display: flex;  
     /* debug */
@@ -43,15 +43,6 @@ header a{
     width: 300px; */
     /* background-color: rgb(15, 15, 12); */
     /* color: white; */
-}
-
-.menu-dx{
-    align-items: center;  
-    display: flex;
-    /* debug */
-    /* height: 100px;
-    width: 300px;
-    background-color: rgb(141, 141, 15); */
 }
 
 .lista{
@@ -78,3 +69,33 @@ a{
 
 /* regole main */
 
+
+#sfondo{
+    background-color: rgb(114, 147, 255);
+    padding: 5% 0;
+    /* debug */
+    /* width: 100%; */
+    /* min-height: 500px; */
+}
+
+#jumbo{
+    margin: 5% 25%;
+    text-align: center;
+    /* debug */
+    /* background-color: black; */
+    min-height: 300px;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#conteiner-jumbo{
+    display: flex;
+}
+
+#img-jumbo img{
+    max-width: 100%;
+}
