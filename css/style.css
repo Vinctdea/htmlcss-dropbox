@@ -23,7 +23,7 @@ header{
     /* background-color: rgb(24, 23, 21); */
 }
 
-header a{
+ a{
     text-decoration: none;
     color: black;
     
@@ -60,8 +60,7 @@ a{
 }
 
 .bottone{
-    border: solid 1px ;
-    padding: 5px;
+    padding: 10px 15px;
     background-color: rgb(58, 94, 253);
     color: white;
 
@@ -72,7 +71,7 @@ a{
 
 #sfondo{
     background-color: rgb(114, 147, 255);
-    padding: 5% 0;
+    padding: 3% 0 0 0;
     /* debug */
     /* width: 100%; */
     /* min-height: 500px; */
@@ -81,10 +80,10 @@ a{
 #jumbo{
     margin: 5% 25%;
     text-align: center;
+    color: white;
     /* debug */
     /* background-color: black; */
-    min-height: 300px;
-    color: white;
+    /* min-height: 300px; */
 }
 
 h1{
@@ -94,8 +93,28 @@ h1{
 
 #conteiner-jumbo{
     display: flex;
+    gap: 30px;
 }
 
 #img-jumbo img{
-    max-width: 100%;
+    max-width: 120%;
+    height: 120%;
+}
+
+.testo{
+    text-align: left;
+}
+
+.testo p{
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.testo .bottone{
+    background-color: blue;
+    
+}
+
+.testo div{
+    margin-top: 30px;
 }
