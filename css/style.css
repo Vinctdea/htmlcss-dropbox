@@ -208,3 +208,38 @@ h1{
     color: blue;
     font-size: 10px;
 }
+
+.container-flx-bot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    /* debug */
+    min-height: 500px;
+    background-color: dimgrey;
+}
+
+.col-bot{
+    flex-basis: calc(100%/3);
+
+    /* debug */
+    background-color: aquamarine;
+    min-height: 300px;
+    border: 1px solid black;
+
+}
+
+.colx4{
+    display: flex; 
+    flex-wrap: wrap;   
+}
+
+.col-intx4{
+    width: 50%;
+    width: 50%;
+    min-width: 200px;
+    /* debug */
+    background-color: darkslateblue;
+    border: 1px solid black;
+
+}
