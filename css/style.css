@@ -279,3 +279,39 @@ hr{
    
 }
 
+/* regole footer */
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    /* debug */
+    min-height: 300px;
+}
+
+.cont-flx-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 15%;
+    gap: 20px;
+}
+
+.col-footer{
+    flex-basis: 20%;
+
+    /* debug */
+    min-height: 200px;
+    background-color: aquamarine;
+}
+
+
+
+#select-lg{
+    padding: 0 15%;
+}
+
+footer hr{
+    margin-left: 15%;
+    width: 150px;
+    border-top: 2px solid white;
+}
