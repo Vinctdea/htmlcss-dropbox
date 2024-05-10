@@ -175,3 +175,21 @@ h1{
     background-color: darkmagenta;
 }
 
+.operation{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-operation{
+    flex-basis: calc(100% / 3 - 20px);
+    margin: 10px 10px;
+
+    /* degub */
+    min-height: 100px;
+    /* min-width: 60px; */
+    background-color: darkgreen;
+    
+}
+
