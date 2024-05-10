@@ -81,7 +81,7 @@ a{
 #jumbo{
     margin: 5% 25%;
     text-align: center;
-    color: white;
+    
     /* debug */
     /* background-color: black; */
     /* min-height: 300px; */
@@ -133,6 +133,11 @@ h1{
     min-height: 500px;
 }
 
+.price-plane{
+   padding: 20px;
+
+}
+
 .flex-container{
     display: flex;
 }
@@ -140,8 +145,33 @@ h1{
 .col{
     flex-basis: calc(100% / 3 - 20px);
     margin: 30px 10px;
+    border: solid 1px grey;
     /* debug */
     min-height: 300px;
-    background-color: coral;
+    /* background-color: coral; */
+}
+
+#enterprise{
+    border: solid 1px grey;
+
+    /* debug */
+    min-width: 300px;
+    min-height: 150px;
+}
+
+.banner-main{
+    display: flex;
+
+    /* debug */
+    min-height: 150px;
+    min-width: 300px;
+    background-color: darkolivegreen;
+}
+
+.col-banner{
+    flex-basis:calc(100% /2 - 20px);
+    margin: 0 10px;
+    /* debug */
+    background-color: darkmagenta;
 }
 
