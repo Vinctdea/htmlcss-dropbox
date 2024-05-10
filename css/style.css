@@ -98,12 +98,13 @@ h1{
 }
 
 #img-jumbo img{
-    max-width: 120%;
+    max-width: 130%;
     height: 120%;
 }
 
 .testo{
     text-align: left;
+    min-width: 100px;
 }
 
 .testo p{
@@ -169,7 +170,7 @@ h1{
     /* debug */
     min-height: 150px;
     min-width: 300px;
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
 }
 
 .col-banner{
