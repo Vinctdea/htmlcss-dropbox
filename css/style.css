@@ -309,41 +309,92 @@ h1{
     text-decoration: underline;
     color: blue;
     font-size: 10px;
+    margin-bottom: 50px;
 }
 
 .container-flx-bot{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
-    /* debug */
     min-height: 500px;
-    background-color: dimgrey;
+    
 }
 
 .col-bot{
     flex-basis: calc(100%/3);
-
+    min-width: 200px;
+    padding: 10px;
+    background-color: rgb(240, 227, 227);
     /* debug */
-    background-color: aquamarine;
+    /* background-color: aquamarine;
     min-height: 300px;
-    border: 1px solid black;
+    border: 1px solid black; */
 
+}
+
+.col-bot p{
+    margin: 30px 0;
+}
+
+.col-bot img{
+    margin: 5%;
+    width: 30%;
+    height: 30%;
+}
+
+#world{
+    background-color: brown;
+}
+
+#img-desi{
+    background-color: rgb(158, 202, 91);  
+}
+
+#lonely{
+    background-color: blue;
+}
+
+#hearst{
+    background-color: rgb(34, 140, 189);
+}
+
+#arizona{
+    background-color: rgb(112, 29, 29);
+}
+
+#florida{
+    background-color: rgb(3, 136, 245);
+}
+
+#topps{
+    background-color: red;
+}
+
+#clearch{
+    background-color: rgb(175, 175, 8);
 }
 
 .colx4{
     display: flex; 
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
+    padding: 0;
+
+}
+
+.col-intx4 img{
+    width: 50%;
+    height: 30%;
+    filter: invert();
+    
 }
 
 .col-intx4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     width: 50%;
-    width: 50%;
+    height: 50%;
     min-width: 200px;
-    /* debug */
-    background-color: darkslateblue;
-    border: 1px solid black;
-
 }
 
 #prova-bot{
