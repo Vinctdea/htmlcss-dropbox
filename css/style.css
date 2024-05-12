@@ -161,7 +161,8 @@ h1{
     width: 100%;
     height: 50px;
     text-align: center;
-    border-bottom: 1px solid black;   
+    border-bottom: 1px solid black; 
+    line-height: 40px;  
 }
 
 .cont-col{
@@ -208,10 +209,31 @@ h1{
 
 #enterprise{
     border: solid 1px grey;
+}
 
-    /* debug */
-    min-width: 300px;
-    min-height: 150px;
+#tit-ent {
+    border-bottom: 1px solid grey;
+    line-height: 40px;
+    text-align: center;
+}
+
+#cont-ent{
+    padding: 2%;
+}
+
+#cont-ent h2{
+    display: inline-block;
+    margin-right: 60%;
+}
+
+#in{
+    display: inline-block;
+}
+
+#text{
+    width: 60%;
+    padding: 3% 0 ;
+    
 }
 
 .banner-main{
