@@ -28,9 +28,10 @@ header{
     color: black;   
 }
 
-.lista li:hover{
+.hov:hover{
    border-bottom: 1px solid black;
 }
+
 
 #container-top{
     display: flex;
