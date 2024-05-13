@@ -64,7 +64,10 @@ a{
     background-color: rgb(58, 94, 253);
     color: white;
     font-size: 15px;
+}
 
+.bottone:hover{
+    filter: grayscale(80%);
 }
 
 /* regole main */
