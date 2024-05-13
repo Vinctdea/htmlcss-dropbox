@@ -142,6 +142,7 @@ h1{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    height: 1000px;
 }
 
 .col{
@@ -150,7 +151,7 @@ h1{
     border: solid 1px grey;
     min-width: 200px;
     line-height: 30px;
-    min-height: 800px;
+    min-height: 100%;
         
 }
 
@@ -205,9 +206,10 @@ h1{
 
 #enterprise{
     border: solid 1px grey;
+    margin: 50px 0;
 }
 
-#tit-ent {
+#tit-ent { 
     border-bottom: 1px solid grey;
     line-height: 40px;
     text-align: center;
@@ -314,7 +316,7 @@ h1{
 
 .container-flx-bot{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
     min-height: 500px;
     
@@ -322,7 +324,7 @@ h1{
 
 .col-bot{
     flex-basis: calc(100%/3);
-    min-width: 200px;
+    /* min-width: 200px; */
     padding: 10px;
     background-color: rgb(240, 227, 227);
     /* debug */
@@ -400,6 +402,7 @@ h1{
 #prova-bot{
     padding: 0 25%;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     background-color: cornflowerblue;
@@ -436,13 +439,12 @@ footer{
     color: white;
     width: 100%;
     /* debug */
-    min-height: 300px;
+    /* min-height: 300px; */
 }
 
 .cont-flx-footer{
     display: flex;
     flex-wrap: wrap;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     padding: 5% 15%;
     gap: 10px;
@@ -452,15 +454,11 @@ footer{
     width:calc(20% - 20px);
     min-width: 100px;
 
-    /* debug */
-    /* min-height: 200px;
-    background-color: aquamarine; */
 }
 
 #select-lg{
     margin: 0 50px;
-    padding: 0 15%; 
-        /* display: flex; */
+    padding: 0 15% 2% 15%; 
 }
 
 .hr-spec{
