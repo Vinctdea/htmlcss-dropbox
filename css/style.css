@@ -20,14 +20,16 @@ header{
     background-color:white;
     z-index: 80;
     overflow-y: hidden;
-    /* debug */
-    /* background-color: rgb(24, 23, 21); */
+
 }
 
  a{
     text-decoration: none;
-    color: black;
-    
+    color: black;   
+}
+
+.lista li:hover{
+   border-bottom: 1px solid black;
 }
 
 #container-top{
@@ -39,11 +41,7 @@ header{
 .menu{
     align-items: center;  
     display: flex;  
-    /* debug */
-    /* height: 100px;
-    width: 300px; */
-    /* background-color: rgb(15, 15, 12); */
-    /* color: white; */
+
 }
 
 .lista{
